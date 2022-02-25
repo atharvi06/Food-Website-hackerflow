@@ -1,0 +1,133 @@
+.home {
+  width: 100%;
+  height: 1024px;
+  background: url("food.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.Navbar {
+    width: 100%;
+    height: 108px;
+    background: linear-gradient(90deg, rgba(240, 164, 23, 0.966) 0%, rgb(26, 23, 23) 100%);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+
+  /*.logo {
+    width: 98px;
+    height: 103px;
+    background: url("logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 26px;
+    overflow: hidden;
+  }*/
+
+  .title {
+    width: 100px;
+    color: rgba(255, 253, 253, 0.822);
+    position: absolute;
+    display:inline;
+    top: 25px;
+    left: 25px;
+    left: 20px;
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    opacity: 1;
+  
+  }
+
+  .texts {
+    width: 327px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 32px;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 1064px;
+    overflow: hidden;
+  }
+
+  
+  .SnacksT {
+    width: 105px;
+    color: #fff;
+    top: 10px;
+    bottom: 21px;
+    left: 156px;
+    font-family: Inter;
+    font-weight: bolder;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+  .CartT {
+    width: 85px;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    bottom: 21px;
+    left: 143px;
+    font-family: Inter;
+    font-weight: bolder;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .SignUpT {
+    width: 125px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 35px;
+    left: 892px;
+    font-family: Inter;
+    font-weight: bolder;
+    font-size: 24px;
+    opacity: 1;
+    text-align: center;
+  } 
+  #signup{
+    cursor:pointer;
+    transition-duration: 0.4s;
+    background-color:rgba(245,208,12,1);
+    width: 198px;
+    height: 59px;
+    opacity: 1;
+    position: absolute;
+    top: 21px;
+    left: 842px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    overflow: hidden;
+    transition-duration: 0.4s;
+    text-align: center;
+    
+  
+  }
+  
+  #signup:hover{
+    background-color: darkgoldenrod;
+  }
+
+  
